@@ -1,0 +1,31 @@
+{
+  "name": "flatten-this-folder",
+  "version": "0.1.0",
+  "description": "Flatten the folder by moving all files to current directory",
+  "main": "move.js",
+  "type": "module",
+  "bin": {
+    "flatten": "./move.js"
+  },
+  "scripts": {
+    "start": "node move.js playground",
+    "test": "node test.js",
+    "reset": "git stash -- playground && git clean -f -- playground",
+    "check": "npm start && npm test && npm run reset",
+    "global": "npm install -g ."
+  },
+  "author": "Boris Yakubchik",
+  "homepage": "https://yboris.dev",
+  "license": "MIT",
+  "keywords": [
+    "CLI",
+    "flatten"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/whyboris/flatten-this-folder.git"
+  },
+  "dependencies": {
+    "fdir": "6.4.2"
+  }
+}
