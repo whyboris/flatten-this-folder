@@ -38,3 +38,4 @@ Edit the `move.js` file and run `npm start` to see your script working
 - [ ] if argv[2] `.startsWith('.')` filter for the file (e.g. `flatten .mp4` only moves _.mp4_ files)
 - [ ] if argv[2] `.equals('dry')` only console log everything
 - [ ] unit test to check file contents too
+- [ ] check what happens when filename length is at the OS limit
