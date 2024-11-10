@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/flatten-this-folder.svg)](http://badge.fury.io/js/flatten-this-folder)
+
 # Flatten This Folder
 
 `flatten` is a _CLI_ (command-line interface) that will flatten your folder structure in whatever folder you run it in. All the files in all the sub-folders will be moved to the current directory. No folders are deleted or moved.
